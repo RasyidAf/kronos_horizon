@@ -31,6 +31,14 @@
 
 <body>
   <div id="app">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader-content">
+        <div class="loader-circle"></div>
+        <div class="loader-text">KRONOS HORIZON</div>
+      </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
       <div class="container nav-container">
@@ -49,6 +57,11 @@
           <li><a href="#community">Komunitas</a></li>
           <li><a href="#location">Lokasi</a></li>
           <li><a href="#join" class="btn-primary">Gabung Sekarang</a></li>
+          <li>
+            <button class="theme-toggle" aria-label="Toggle Theme">
+              <span class="icon">☀️</span>
+            </button>
+          </li>
         </ul>
       </div>
     </nav>
@@ -61,6 +74,7 @@
         <img src="/ethereum.svg" alt="Ethereum" class="floating-icon eth-icon">
         <img src="/xrp.svg" alt="XRP" class="floating-icon xrp-icon">
         <img src="/solana.svg" alt="Solana" class="floating-icon sol-icon">
+        <img src="/doge.svg" alt="Doge" class="floating-icon doge-icon">
       </div>
       <div class="container hero-content">
         <h1 class="hero-title fade-in glitch" data-text="Revolusi Trading Dimulai Di Wonogiri">Revolusi Trading
@@ -79,7 +93,7 @@
     <section class="stats-section">
       <div class="container stats-grid">
         <div class="stat-item fade-in-up">
-          <h3 class="stat-number" data-target="50">0+</h3>
+          <h3 class="stat-number" data-target="10">0+</h3>
           <p>Anggota Aktif</p>
         </div>
         <div class="stat-item fade-in-up delay-1">
@@ -87,7 +101,7 @@
           <p>Sinyal Profit</p>
         </div>
         <div class="stat-item fade-in-up delay-2">
-          <h3 class="stat-number" data-target="2">0+</h3>
+          <h3 class="stat-number" data-target="1">0+</h3>
           <p>Tahun Pengalaman</p>
         </div>
       </div>
@@ -205,21 +219,21 @@
           <div class="testimonial-card fade-in-up delay-1">
             <p>"Komunitas terbaik di Wonogiri! Belajar crypto jadi lebih mudah dan terarah."</p>
             <div class="user-info">
-              <h4>Andi S.</h4>
+              <h4>Bagus</h4>
               <span>Trader Pemula</span>
             </div>
           </div>
           <div class="testimonial-card fade-in-up delay-2">
             <p>"Sinyalnya akurat dan mentornya sangat membantu. Profit konsisten tiap bulan."</p>
             <div class="user-info">
-              <h4>Budi R.</h4>
+              <h4>Khoirurrijal</h4>
               <span>Full-time Trader</span>
             </div>
           </div>
           <div class="testimonial-card fade-in-up delay-3">
             <p>"Networkingnya luar biasa. Senang bisa bertemu banyak teman satu frekuensi."</p>
             <div class="user-info">
-              <h4>Siti M.</h4>
+              <h4>Diki</h4>
               <span>Investor Crypto</span>
             </div>
           </div>
@@ -301,6 +315,13 @@
           <a href="#">Instagram</a>
           <a href="#">Twitter</a>
           <a href="#">Telegram</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Berlangganan Newsletter</h4>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Email Anda..." required>
+            <button type="submit" class="btn-primary">Daftar</button>
+          </form>
         </div>
       </div>
       <div class="footer-bottom">
